@@ -51,14 +51,14 @@ source ~/catkin_ws/devel/setup.bash
 ```
 #### Launch project by calling the safe_spawner shell script in a fresh terminal
 ```sh
-$ cd ~/catkin_ws/src/Pick-and-Place-Robot-with-kuka-arm-and-moveit/kuka_arm/scripts
-$ ./safe_spawner.sh
+cd ~/catkin_ws/src/Pick-and-Place-Robot-with-kuka-arm-and-moveit/kuka_arm/scripts
+./safe_spawner.sh
 ```
 #### Run the `IK_server` node from another terminal  
 
 ```sh
-$ cd ~/catkin_ws/src/Pick-and-Place-Robot-with-kuka-arm-and-moveit/kuka_arm/scripts
-$ rosrun kuka_arm IK_server.py
+cd ~/catkin_ws/src/Pick-and-Place-Robot-with-kuka-arm-and-moveit/kuka_arm/scripts
+rosrun kuka_arm IK_server.py
 ```
 Click on **Next** button on left side of RViz to change states
 <p align="center">
